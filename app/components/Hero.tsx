@@ -1,8 +1,5 @@
 import { Globe } from "@/components/magicui/globe"
-import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button"
 import { RainbowButton } from "@/components/magicui/rainbow-button"
-import { TextReveal } from "@/components/magicui/text-reveal"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Hero() {
@@ -32,21 +29,7 @@ export default function Hero() {
                 </div>
             </div>
             <div>
-                {/* <div>
-                     <Image
-                        src="/cursor"
-                        width={500}
-                        height={500}
-                        alt="Picture of the author"
-                        />
-                </div> */}
-                
-
-
-
-                <div></div>
-                <div></div>
-                <div></div>
+               
             </div>
             <div className="mt-28">
                 <Globe className="mt-85"/>
